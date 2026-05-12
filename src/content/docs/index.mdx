@@ -1,0 +1,75 @@
+---
+title: QuantumSavory
+description: Julia software for quantum networks, stabilizer simulation, symbolic quantum workflows, and numerical quantum science.
+template: splash
+hero:
+  tagline: Julia software for quantum network simulation, stabilizer computation, symbolic quantum algebra, and numerical QIS workflows.
+  image:
+    html: '<img class="qs-hero-logo" src="/quantumsavory-logo.png" alt="" />'
+  actions:
+    - text: Explore Projects
+      link: /start/projects/
+      icon: right-arrow
+      variant: primary
+    - text: View GitHub
+      link: https://github.com/QuantumSavory
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## What This Is
+
+QuantumSavory is a GitHub organization for open-source Julia software in quantum information science. The packages cover quantum networks, stabilizer methods, symbolic expressions, optimization, visualization, and backend interfaces.
+
+<CardGrid>
+  <Card title="QuantumSavory.jl">
+    [GitHub](https://github.com/QuantumSavory/QuantumSavory.jl) · [Docs](https://qs.quantumsavory.org/stable/)
+
+    Multi-formalism simulation for quantum hardware, network protocols, noise, timing, and backend selection.
+  </Card>
+  <Card title="QuantumClifford.jl">
+    [GitHub](https://github.com/QuantumSavory/QuantumClifford.jl) · [Docs](https://qc.quantumsavory.org/stable/)
+
+    Stabilizer tableaux, Clifford circuits, graph states, and quantum error-correction workflows.
+  </Card>
+  <Card title="QuantumSymbolics.jl">
+    [GitHub](https://github.com/QuantumSavory/QuantumSymbolics.jl) · [Docs](https://doc.quantumsavory.org/QuantumSymbolics.jl/stable/)
+
+    Symbolic quantum algebra with translation into numerical representations.
+  </Card>
+</CardGrid>
+
+## Ecosystem
+
+Focused packages:
+
+- [BPGates.jl](https://github.com/QuantumSavory/BPGates.jl) ([docs](https://doc.quantumsavory.org/BPGates.jl/))
+- [QEPOptimize.jl](https://github.com/QuantumSavory/QEPOptimize.jl) ([demo](https://doc.quantumsavory.org/QEPOptimize.jl/example/pluto.html))
+- [Quantikz.jl](https://github.com/QuantumSavory/Quantikz.jl) ([docs](https://doc.quantumsavory.org/Quantikz.jl/), [live renderer](https://quantikz.krastanov.org/))
+- [QuantumExpanders.jl](https://github.com/QuantumSavory/QuantumExpanders.jl)
+- [Gabs.jl](https://github.com/QuantumSavory/Gabs.jl) ([docs](https://QuantumSavory.github.io/Gabs.jl/))
+- [LDPCDecoders.jl](https://github.com/QuantumSavory/LDPCDecoders.jl), [PyQDecoders.jl](https://github.com/QuantumSavory/PyQDecoders.jl), [PyTesseractDecoder.jl](https://github.com/QuantumSavory/PyTesseractDecoder.jl)
+- [LCOrbits.jl](https://github.com/QuantumSavory/LCOrbits.jl), [PBCCompiler.jl](https://github.com/QuantumSavory/PBCCompiler.jl), [qECCBenchWiki](https://github.com/QuantumSavory/qECCBenchWiki)
+
+Related organizations and packages:
+
+- [QuantumSavory GitHub organization](https://github.com/QuantumSavory)
+- [qojulia organization](https://github.com/qojulia) and [qojulia.org](https://www.qojulia.org/)
+- [QuantumOptics.jl](https://github.com/qojulia/QuantumOptics.jl), [QuantumOpticsBase.jl](https://github.com/qojulia/QuantumOpticsBase.jl), [QuantumInterface.jl](https://github.com/qojulia/QuantumInterface.jl)
+- [WaveguideQED.jl](https://github.com/qojulia/WaveguideQED.jl), [QuantumCumulants.jl](https://github.com/qojulia/QuantumCumulants.jl), [SecondQuantizedAlgebra.jl](https://github.com/qojulia/SecondQuantizedAlgebra.jl)
+
+## Community
+
+QuantumSavory maintains issue bounties, holds weekly office hours, and helps organize the QNumerics summer school.
+
+- [Bounties](/community/bounties/) and [current bounty search](https://github.com/search?q=org%3AQuantumSavory%20label%3A%22bug%20bounty%22%20is%3Aopen&type=issues)
+- [Office hours](/community/office-hours/) and the [Julia community events calendar](https://julialang.org/community/#events)
+- [QNumerics summer school](https://qnumerics.org/) and the [2026 edition](https://qnumerics.org/2026/)
+- [Interactive demos](/start/demos/), including [State Explorer](https://areweentangledyet.com/state_explorer/) and [Repeater Chain Congestion](https://areweentangledyet.com/congestionchain/)
+
+## Host And Funding
+
+The organization is hosted in [Prof. Stefan Krastanov's lab](https://lab.krastanov.org/) at [UMass Amherst](https://www.umass.edu/quantum/).
+
+Development is supported by the [NSF Engineering Research Center for Quantum Networks](https://cqn-erc.arizona.edu/), NSF Cooperative Agreement [1941583](https://api.nsf.gov/services/v1/awards/1941583.json), and NSF Grant [2346089](https://api.nsf.gov/services/v1/awards/2346089.json), Research Infrastructure: CIRC: New: Full-stack Codesign Tools for Quantum Hardware. Bounty payouts are handled through [NumFOCUS](https://numfocus.org/) and the [Julia Krastanov CQN OpenCollective project](https://opencollective.com/julialang/projects/julia-krastanov-cqn).

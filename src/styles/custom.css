@@ -1,0 +1,43 @@
+:root {
+  --qs-cyan: #0e8797;
+  --qs-green: #3f8f34;
+  --qs-ink: #111827;
+}
+
+.sl-markdown-content .qs-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
+
+.sl-markdown-content .qs-callout {
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background: var(--sl-color-gray-6);
+}
+
+.sl-markdown-content .qs-kicker {
+  color: var(--qs-cyan);
+  font-weight: 700;
+}
+
+.qs-hero-logo {
+  max-width: min(15rem, 45vw);
+  border-radius: 0.75rem;
+}
+
+.sl-markdown-content .qs-link-list {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  list-style: none;
+  padding-left: 0;
+}
+
+.sl-markdown-content .qs-link-list li {
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 0.5rem;
+  padding: 0.9rem;
+  background: var(--sl-color-gray-6);
+}
