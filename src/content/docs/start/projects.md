@@ -11,6 +11,10 @@ description: Main QuantumSavory projects and ecosystem packages.
 - [QuantumClifford.jl](https://github.com/QuantumSavory/QuantumClifford.jl) ([docs](https://qc.quantumsavory.org/stable/)): fast stabilizer states, Pauli operators, Clifford circuits, graph states, and quantum error-correction tools.
 - [QuantumSymbolics.jl](https://github.com/QuantumSavory/QuantumSymbolics.jl) ([docs](https://doc.quantumsavory.org/QuantumSymbolics.jl/stable/)): symbolic quantum algebra, with translation to QuantumOptics.jl and QuantumClifford.jl representations.
 
+## QuantumSavory Studio
+
+[QuantumSavory Studio](https://gui.quantumsavory.org/) is the browser application for designing and simulating quantum networks with QuantumSavory.jl. Its source code is in the [WebQuantumSavory repository](https://github.com/QuantumSavory/WebQuantumSavory).
+
 ## Related Ecosystem Work
 
 - [QuantumOptics.jl](https://github.com/qojulia/QuantumOptics.jl) ([site](https://www.qojulia.org/)): numerical simulation of closed and open quantum systems. QuantumSavory integrates with and contributes upstream to this ecosystem.

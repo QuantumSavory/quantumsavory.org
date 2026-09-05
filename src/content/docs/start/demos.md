@@ -5,7 +5,7 @@ description: Placeholders for hosted examples and demos.
 
 # Interactive Demos
 
-These demos are based on the [QuantumSavory.jl examples folder](https://github.com/QuantumSavory/QuantumSavory.jl/tree/master/examples). Some are already hosted. Others are placeholders for future deployments.
+For a general-purpose graphical workflow, use [QuantumSavory Studio](/start/projects/#quantumsavory-studio). The demos below are separate, purpose-built applications based on the [QuantumSavory.jl examples folder](https://github.com/QuantumSavory/QuantumSavory.jl/tree/master/examples). Some are already hosted. Others are placeholders for future deployments.
 
 ## Hosted Now
 
