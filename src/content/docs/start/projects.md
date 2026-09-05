@@ -13,7 +13,7 @@ description: Main QuantumSavory projects and ecosystem packages.
 
 ## QuantumSavory Studio
 
-[QuantumSavory Studio](https://gui.quantumsavory.org/) is the browser application for designing and simulating quantum networks with QuantumSavory.jl. Its source code is in the [WebQuantumSavory repository](https://github.com/QuantumSavory/WebQuantumSavory).
+[QuantumSavory Studio](https://gui.quantumsavory.org/) is the browser application for designing and simulating quantum networks with QuantumSavory.jl. Its source code is in the [QuantumSavoryStudio repository](https://github.com/QuantumSavory/QuantumSavoryStudio).
 
 ## Related Ecosystem Work
 
