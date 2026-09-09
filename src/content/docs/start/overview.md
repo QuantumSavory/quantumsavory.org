@@ -26,3 +26,5 @@ Smaller packages fill specific needs: faster Bell-pair gates, entanglement-purif
 ## Community Work
 
 QuantumSavory runs bounty issues for bug fixes and enhancements, holds weekly office hours, and helps organize the QNumerics Summer School on Numerical Methods in Quantum Information Science.
+
+New contributors participating in the bounty program must not use LLMs or coding agents to generate code. They may use these tools to analyze existing code and to review code they have written themselves. They must attend [office hours](/community/office-hours/) to discuss their pull request.

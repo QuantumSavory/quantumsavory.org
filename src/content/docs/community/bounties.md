@@ -7,6 +7,8 @@ description: Issue bounties and contribution targets.
 
 QuantumSavory maintains development bounties for open-source bug fixes and enhancements across its Julia package ecosystem. The program is meant to build community, create entry points for new contributors, and improve the software.
 
+New contributors participating in the bounty program must not use LLMs or coding agents to generate code. They may use these tools to analyze existing code and to review code they have written themselves. They must attend [office hours](/community/office-hours/) to discuss their pull request.
+
 Use the [QuantumSavory GitHub bounty search](https://github.com/search?q=org%3AQuantumSavory%20label%3A%22bug%20bounty%22%20is%3Aopen&type=issues) for current open bounties. You can also check bounty-labeled issues in individual repositories:
 
 - [QuantumSavory.jl bounties](https://github.com/QuantumSavory/QuantumSavory.jl/issues?q=is%3Aissue+is%3Aopen+label%3A%22bug+bounty%22)
