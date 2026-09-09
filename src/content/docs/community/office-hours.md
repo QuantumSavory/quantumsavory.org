@@ -16,8 +16,6 @@ Recurring public schedule:
 
 Before joining, check the [Julia community events calendar](https://julialang.org/community/#events). That calendar is the public place to confirm whether office hours are happening, rescheduled, or canceled for the week, and it lists the current joining link.
 
-New contributors participating in the [bounty program](/community/bounties/) must attend office hours to discuss their pull request. They must not use LLMs or coding agents to generate code. They may use these tools to analyze existing code and to review code they have written themselves.
-
 Good topics for office hours include:
 
 - choosing a backend for a simulation,
